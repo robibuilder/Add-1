@@ -16,6 +16,8 @@
 		BE6C8D0223E75E04007D5D52 /* Add_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C8D0123E75E04007D5D52 /* Add_1Tests.swift */; };
 		BE6C8D0F23E76CF5007D5D52 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE6C8D0E23E76CF5007D5D52 /* HVD_Comic_Serif_Pro.otf */; };
 		BE6C8D1023E76CF5007D5D52 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE6C8D0E23E76CF5007D5D52 /* HVD_Comic_Serif_Pro.otf */; };
+		BE6C8D1223E77B70007D5D52 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C8D1123E77B70007D5D52 /* String.swift */; };
+		BE6C8D1323E77B70007D5D52 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C8D1123E77B70007D5D52 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,7 @@
 		BE6C8D0123E75E04007D5D52 /* Add_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_1Tests.swift; sourceTree = "<group>"; };
 		BE6C8D0323E75E04007D5D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6C8D0E23E76CF5007D5D52 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HVD_Comic_Serif_Pro.otf; path = "../../../Downloads/Game Test/HVD-Comic-Serif-Pro/HVD_Comic_Serif_Pro.otf"; sourceTree = "<group>"; };
+		BE6C8D1123E77B70007D5D52 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 				BE6C8CF523E75E03007D5D52 /* LaunchScreen.storyboard */,
 				BE6C8CF823E75E03007D5D52 /* Info.plist */,
 				BE6C8D0E23E76CF5007D5D52 /* HVD_Comic_Serif_Pro.otf */,
+				BE6C8D1123E77B70007D5D52 /* String.swift */,
 			);
 			path = "Add 1";
 			sourceTree = "<group>";
@@ -208,6 +212,7 @@
 			files = (
 				BE6C8CEF23E75DFD007D5D52 /* GameViewController.swift in Sources */,
 				BE6C8CEB23E75DFD007D5D52 /* AppDelegate.swift in Sources */,
+				BE6C8D1223E77B70007D5D52 /* String.swift in Sources */,
 				BE6C8CED23E75DFD007D5D52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6C8D1323E77B70007D5D52 /* String.swift in Sources */,
 				BE6C8D0223E75E04007D5D52 /* Add_1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

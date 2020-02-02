@@ -34,7 +34,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVG-3G-8PK">
-                                <rect key="frame" x="55.666666666666657" y="62.333333333333336" width="49" height="25.666666666666664"/>
+                                <rect key="frame" x="55.666666666666657" y="61.666666666666664" width="49" height="26.666666666666664"/>
                                 <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -47,7 +47,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xR7-rc-6VH">
-                                <rect key="frame" x="271.33333333333331" y="62.333333333333336" width="55.333333333333314" height="25.666666666666664"/>
+                                <rect key="frame" x="271.33333333333331" y="61.666666666666664" width="55.333333333333314" height="26.666666666666664"/>
                                 <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -111,6 +111,12 @@
                             <constraint firstItem="TF7-rV-hdK" firstAttribute="top" secondItem="9k8-C2-9hR" secondAttribute="bottom" constant="6" id="zj9-ZO-wg2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="inputField" destination="Tr0-sP-Maj" id="Fwu-VA-2At"/>
+                        <outlet property="numberLabel" destination="vVG-3G-8PK" id="DBS-rn-xpr"/>
+                        <outlet property="scoreLabel" destination="EiI-yf-2Ve" id="nob-OQ-0RQ"/>
+                        <outlet property="timeLabel" destination="xR7-rc-6VH" id="HiB-ga-oHE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
