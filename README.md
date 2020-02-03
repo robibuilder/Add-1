@@ -1,29 +1,11 @@
 
 <h1 align="center">
-  JacobRobinett.com - v1
+  Add-1 iOS App
 </h1>
 <p align="center">
-  The first official iteration of <a href="https://brittanychiang.com" target="_blank">JacobRobinett.com</a> built with BootStrap.
-</p>
-
-<p align="center">
-  <a href="https://getbootstrap.com/">
-    <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" alt="Bootstrap logo" width="72" height="72">
-  </a>
-</p>
-
-<!--
-<p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
-</p>
--->
-<p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-  </a>
+  A simple brain teaser app developed using Swift on Xcode. <br>
+  Link to tutorial:
+  <a href="https://learnappmaking.com/swift-guard-let-statement-how-to/" target="_blank">Here/a>
 </p>
 
 ![default screen](homescreen.PNG) 
