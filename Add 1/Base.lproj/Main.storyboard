@@ -74,6 +74,9 @@
                                 <color key="textColor" red="0.41176470588235292" green="0.6588235294117647" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="70"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="inputFieldDidChange" destination="BYZ-38-t0r" eventType="editingChanged" id="MWY-DX-am3"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add 1 to each of the digits  So 1357 becomes 2468." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qR2-Vp-qtg">
                                 <rect key="frame" x="19.666666666666657" y="747" width="375" height="65"/>
@@ -113,8 +116,8 @@
                     </view>
                     <connections>
                         <outlet property="inputField" destination="Tr0-sP-Maj" id="Fwu-VA-2At"/>
-                        <outlet property="numberLabel" destination="vVG-3G-8PK" id="DBS-rn-xpr"/>
-                        <outlet property="scoreLabel" destination="EiI-yf-2Ve" id="nob-OQ-0RQ"/>
+                        <outlet property="numberLabel" destination="EiI-yf-2Ve" id="mQQ-cm-u4a"/>
+                        <outlet property="scoreLabel" destination="vVG-3G-8PK" id="0du-5v-fSS"/>
                         <outlet property="timeLabel" destination="xR7-rc-6VH" id="HiB-ga-oHE"/>
                     </connections>
                 </viewController>

@@ -10,7 +10,7 @@ import Foundation
 
 extension String
 {
-    static func randomNumber(length: int) -> String
+    static func randomNumber(length: Int) -> String
     {
         var result = ""
         
@@ -20,5 +20,12 @@ extension String
         }
         
         return result
+    }
+    
+    func integer(at n: Int) -> Int
+    {
+        let index = self.index(self.startIndex, offsetBy: n)
+
+        return self[index].wholeNumberValue ?? 0
     }
 }
